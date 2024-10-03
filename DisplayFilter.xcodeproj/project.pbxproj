@@ -11,6 +11,7 @@
 		41C4CB3A2C6F217200828F3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4CB392C6F217200828F3D /* ContentView.swift */; };
 		41C4CB3C2C6F217400828F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C4CB3B2C6F217400828F3D /* Assets.xcassets */; };
 		41C4CB3F2C6F217400828F3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C4CB3E2C6F217400828F3D /* Preview Assets.xcassets */; };
+		41C4CB472C6F246400828F3D /* ColorAdjuster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C4CB462C6F245900828F3D /* ColorAdjuster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		41C4CB3B2C6F217400828F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C4CB3E2C6F217400828F3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41C4CB402C6F217400828F3D /* DisplayFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DisplayFilter.entitlements; sourceTree = "<group>"; };
+		41C4CB462C6F245900828F3D /* ColorAdjuster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAdjuster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		41C4CB362C6F217200828F3D /* DisplayFilter */ = {
 			isa = PBXGroup;
 			children = (
+				41C4CB462C6F245900828F3D /* ColorAdjuster.swift */,
 				41C4CB372C6F217200828F3D /* DisplayFilterApp.swift */,
 				41C4CB392C6F217200828F3D /* ContentView.swift */,
 				41C4CB3B2C6F217400828F3D /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C4CB3A2C6F217200828F3D /* ContentView.swift in Sources */,
+				41C4CB472C6F246400828F3D /* ColorAdjuster.swift in Sources */,
 				41C4CB382C6F217200828F3D /* DisplayFilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +283,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "DisplayFilter needs to adjust your display settings.";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "This app needs to modify your desktop picture to apply display filters.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +313,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "DisplayFilter needs to adjust your display settings.";
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = "This app needs to modify your desktop picture to apply display filters.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
