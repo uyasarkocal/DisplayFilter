@@ -1,6 +1,8 @@
 # DisplayFilter
+![SS 2024-10-03 at 5 02 08 AM](https://github.com/user-attachments/assets/576469a0-4713-4c09-b23a-0d9778651bd1)
 
-DisplayFilter is a minimalist macOS app that combines features similar to MonitorControl and f.lux. It allows users to adjust screen brightness and apply color filters to reduce eye strain and improve visual comfort.
+
+DisplayFilter is a minimalist macOS app that combines features similar to MonitorControl and f.lux. It allows users to adjust screen brightness and apply color filters to reduce eye strain and improve visual comfort. Lives in your menubar.
 
 ## Main Focus of this app
 - Simple software brightness control and color filters, not for changing the actual brightness of the display hardware. 
