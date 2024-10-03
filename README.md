@@ -49,6 +49,8 @@ To build DisplayFilter from source:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+The app does not have an icon, I will be happy to add one if you send me a nice one.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
